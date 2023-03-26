@@ -26,30 +26,6 @@ public class Collatz_Server
 			System.out.println("New control thread started");
 			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_02", State_Share).start();
 			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_03", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_04", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_05", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_06", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_07", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_08", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_09", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_10", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_11", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_12", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_13", State_Share).start();
-			System.out.println("New control thread started");
-			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_14", State_Share).start();
-			System.out.println("New control thread started");
 		}
 		Control_Socket.close();
 	}

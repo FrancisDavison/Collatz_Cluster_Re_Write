@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="3_Node_Cluster/Compute01"/>
+	<classpathentry kind="src" path="3_Node_Cluster/Compute02"/>
+	<classpathentry kind="src" path="3_Node_Cluster/Control"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Defiant/Dropbox/Files/Git/Collatz_Cluster_Re_Write/3_Node_Cluster/commons-csv-1.9.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

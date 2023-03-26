@@ -32,7 +32,7 @@ public class Collatz_Server_State
 	{
 		Current_Access=false;
 		notifyAll();
-		Thread me=Thread.currentThread();
+		Thread This_Thread=Thread.currentThread();
 		System.out.println(This_Thread.getName()+" released a lock");
 	}
 	//Issue seed to thread that currently has lock
