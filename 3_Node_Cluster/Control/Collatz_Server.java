@@ -23,9 +23,11 @@ public class Collatz_Server
 		while(listening)
 		{
 			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_01", State_Share).start();
-			System.out.println("New control thread started");
+			System.out.println("Control Thread 01 Started");
 			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_02", State_Share).start();
-			System.out.println("New control thread started");
+			System.out.println("Control Thread 02 Started");
+			new Collatz_Server_Thread(Control_Socket.accept(), "Control_Thread_03", State_Share).start();
+			System.out.println("Control Thread 03 Started");
 		}
 		Control_Socket.close();
 	}
